@@ -1,0 +1,193 @@
+* {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+}
+
+body {
+    height: 100vh;
+    background-color: #13100F;
+}
+
+.main {
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    transform: translateX(-13vw);
+}
+
+.logo {
+    display: inline;
+    margin: 0 auto;
+    height: 12vh;
+    left: 0;
+    padding-top: 1vw;
+    padding-right: 14vw;
+}
+
+ul {
+    color: white;
+    list-style-type: none;   
+    display: inline;
+    left: 0;
+    transform: translateX(-26vw);
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: .77vw;
+}
+
+li {
+    display: inline;
+    margin-right: 3vw;
+    padding: .65vw 1vw .65vw 1vw;
+    border: .65vw 1vw .65vw 1vw;
+    transition: 0.5s ease;
+    border-radius: 110px;
+}
+
+li:hover,
+:focus {
+  color: black;
+  background: #FFCEA5;
+  border: 1px solid #FFCEA5;
+  box-shadow: 0 0 5px #FFCEA5, 0 0 20px #FFCEA5, 0 0 50px #FFCEA5,
+    0 0 100px #FFCEA5;
+  border-radius: 110px;  
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 0;
+    margin-top: -13vh;
+}
+
+.money {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    align-items: center;
+    text-align: center;
+    margin-right: 5vw;
+    border: 7px solid #F2545B;
+    border-radius: 30px;
+    margin-top: 15vh;
+    width: 25vw;
+    height: 43vh;
+    transition: 0.5s ease;
+}
+
+.money:hover {
+    background-color: #F2545B;
+    border: 7px transparent white;
+    box-shadow: 0 0 5px #F2545B, 0 0 20px #F2545B, 0 0 50px #F2545B,
+    0 0 100px #F2545B;
+}
+
+.dollar {
+    font-family: inherit;
+    font-size: 20vh;
+    margin-bottom: -175px;
+    margin-top: 15px;
+}
+
+.price {
+    font-family: inherit;
+    font-size: 10vh;
+    margin-top: 23vh;
+}
+
+.robux {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    align-items: center;
+    border: 7px solid #F2545B;
+    border-radius: 30px;
+    margin-top: 15vh;
+    width: 25vw;
+    height: 43vh;
+    transition: 0.5s ease;
+}
+
+.robux:hover {
+    background-color: #F2545B;
+    border: 7px transparent white;
+    box-shadow: 0 0 5px #F2545B, 0 0 20px #F2545B, 0 0 50px #F2545B,
+    0 0 100px #F2545B;
+}
+
+.icon {
+    font-family: inherit;
+    font-size: 20vh;
+    padding-top: 2vh;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+
+.price-rob {
+    font-family: inherit;
+    font-size: 10vh;
+    margin-top: -.5vh;
+}
+
+.delivery-info {
+    margin-top: 5vh;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    background-color: transparent;
+    border: 7px solid #F2545B;
+    width: 20vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 2vh;
+    transition: 0.5s ease;
+}
+
+.time:hover {
+    border: transparent;
+    background-color: #F2545B;
+    box-shadow: 0 0 5px #F2545B, 0 0 20px #F2545B, 0 0 50px #F2545B,
+    0 0 100px #F2545B;
+}
+
+.format {
+    display: flex;
+    background-color: transparent;
+    border: 7px solid #F2545B;
+    width: 20vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 30px;
+    transition: 0.5s ease;
+}
+
+.format:hover {
+    border: transparent;
+    background-color: #F2545B;
+    box-shadow: 0 0 5px #F2545B, 0 0 20px #F2545B, 0 0 50px #F2545B,
+    0 0 100px #F2545B;
+}
